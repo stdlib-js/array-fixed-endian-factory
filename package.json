@@ -46,6 +46,7 @@
     "@stdlib/assert-is-arraybuffer": "^0.2.2",
     "@stdlib/assert-is-collection": "^0.2.2",
     "@stdlib/assert-is-function": "^0.2.2",
+    "@stdlib/assert-is-integer": "^0.2.2",
     "@stdlib/assert-is-nonnegative-integer": "^0.2.2",
     "@stdlib/assert-is-object": "^0.2.2",
     "@stdlib/assert-is-prototype-of": "^0.2.2",
