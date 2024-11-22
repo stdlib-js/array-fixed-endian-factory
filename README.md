@@ -47,14 +47,32 @@ In contrast to built-in typed array constructors which store values according to
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/array-fixed-endian-factory
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import fixedEndianFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-fixed-endian-factory@esm/index.mjs';
+var fixedEndianFactory = require( '@stdlib/array-fixed-endian-factory' );
 ```
 
 #### fixedEndianFactory( dtype )
@@ -100,7 +118,7 @@ var arr = new Float64ArrayFE( 'little-endian', 5 );
 Creates a typed array from another typed array.
 
 ```javascript
-import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@esm/index.mjs';
+var Float32Array = require( '@stdlib/array-float32' );
 
 var Float64ArrayFE = fixedEndianFactory( 'float64' );
 
@@ -131,7 +149,7 @@ var v = arr.get( 0 );
 Returns a typed array view of an [`ArrayBuffer`][@stdlib/array/buffer].
 
 ```javascript
-import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@esm/index.mjs';
+var ArrayBuffer = require( '@stdlib/array-buffer' );
 
 var Float64ArrayFE = fixedEndianFactory( 'float64' );
 
@@ -353,6 +371,54 @@ v = arr.at( -100 );
 // returns undefined
 ```
 
+<a name="method-every"></a>
+
+#### TypedArrayFE.prototype.every( predicate\[, thisArg] )
+
+Tests whether all the elements in an array pass a test implemented by a predicate function.
+
+```javascript
+function isNegative( v ) {
+    return v < 0;
+}
+
+var Float64ArrayFE = fixedEndianFactory( 'float64' );
+
+var arr = new Float64ArrayFE( 'little-endian', [ -1.0, -2.0, -3.0, -4.0 ] );
+
+var bool = arr.every( isNegative );
+// returns true
+```
+
+The invoked function is provided three arguments:
+
+-   **value**: current array element.
+-   **index**: current array element index.
+-   **arr**: the array on which this method was called.
+
+To set the function execution context, provide a `thisArg`.
+
+```javascript
+function isPositive( v, i ) {
+    this.count += 1;
+    return v > 0;
+}
+
+var Float64ArrayFE = fixedEndianFactory( 'float64' );
+
+var arr = new Float64ArrayFE( 'little-endian', [ 1.0, 2.0, -3.0 ] );
+
+var context = {
+    'count': 0
+};
+
+var bool = arr.every( isPositive, context );
+// returns false
+
+var count = context.count;
+// returns 3
+```
+
 <a name="method-for-each"></a>
 
 #### TypedArrayFE.prototype.forEach( callbackFn\[, thisArg] )
@@ -545,15 +611,10 @@ var str = arr.toString();
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
-import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@esm/index.mjs';
-import fixedEndianFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-fixed-endian-factory@esm/index.mjs';
+```javascript
+var Float64Array = require( '@stdlib/array-float64' );
+var logEach = require( '@stdlib/console-log-each' );
+var fixedEndianFactory = require( '@stdlib/array-fixed-endian-factory' );
 
 var Float64ArrayFE = fixedEndianFactory( 'float64' );
 
@@ -575,10 +636,6 @@ logEach( '%s', out );
 arr = new Float64Array( [ 1.0, -1.0, -3.14, 3.14, 0.5, 0.5 ] ); // host byte order
 out = new Float64ArrayFE( 'big-endian', arr.buffer, 8, 2 );
 logEach( '%s', out );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -610,7 +667,7 @@ logEach( '%s', out );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -673,13 +730,13 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-fixed-endian-factory/main/LICENSE
 
-[@stdlib/array/typed]: https://github.com/stdlib-js/array-typed/tree/esm
+[@stdlib/array/typed]: https://github.com/stdlib-js/array-typed
 
-[@stdlib/array/buffer]: https://github.com/stdlib-js/array-buffer/tree/esm
+[@stdlib/array/buffer]: https://github.com/stdlib-js/array-buffer
 
-[@stdlib/wasm/memory]: https://github.com/stdlib-js/wasm-memory/tree/esm
+[@stdlib/wasm/memory]: https://github.com/stdlib-js/wasm-memory
 
-[@stdlib/array/typed-dtypes]: https://github.com/stdlib-js/array-typed-dtypes/tree/esm
+[@stdlib/array/typed-dtypes]: https://github.com/stdlib-js/array-typed-dtypes
 
 </section>
 
