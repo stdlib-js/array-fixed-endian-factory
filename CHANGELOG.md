@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-20)
+## Unreleased (2024-11-22)
 
 <section class="features">
 
 ### Features
 
+-   [`e3a2173`](https://github.com/stdlib-js/stdlib/commit/e3a2173a24bd8634f333cace626fc2d71740ebd3) - add `every` method to `array/fixed-endian-factory` [(#3200)](https://github.com/stdlib-js/stdlib/pull/3200)
 -   [`b34732c`](https://github.com/stdlib-js/stdlib/commit/b34732cf655db60fbc798e12952f88c3edb07eaf) - add `at` method to `array/fixed-endian-factory` [(#3184)](https://github.com/stdlib-js/stdlib/pull/3184)
 -   [`956a462`](https://github.com/stdlib-js/stdlib/commit/956a4624c788689b1bca285856b987ea3aa32eb6) - add `forEach` method
 -   [`a3a04e3`](https://github.com/stdlib-js/stdlib/commit/a3a04e32057b878529b86180e38ed3ae383c34ef) - add `array/fixed-endian-factory`
@@ -22,9 +23,9 @@
 
 ### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#3135](https://github.com/stdlib-js/stdlib/issues/3135)
+[#3135](https://github.com/stdlib-js/stdlib/issues/3135), [#3138](https://github.com/stdlib-js/stdlib/issues/3138)
 
 </section>
 
@@ -36,6 +37,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`e3a2173`](https://github.com/stdlib-js/stdlib/commit/e3a2173a24bd8634f333cace626fc2d71740ebd3) - **feat:** add `every` method to `array/fixed-endian-factory` [(#3200)](https://github.com/stdlib-js/stdlib/pull/3200) _(by Aayush Khanna, Athan Reines)_
 -   [`b34732c`](https://github.com/stdlib-js/stdlib/commit/b34732cf655db60fbc798e12952f88c3edb07eaf) - **feat:** add `at` method to `array/fixed-endian-factory` [(#3184)](https://github.com/stdlib-js/stdlib/pull/3184) _(by Aayush Khanna, Athan Reines)_
 -   [`956a462`](https://github.com/stdlib-js/stdlib/commit/956a4624c788689b1bca285856b987ea3aa32eb6) - **feat:** add `forEach` method _(by Athan Reines)_
 -   [`b9f3b77`](https://github.com/stdlib-js/stdlib/commit/b9f3b776e5f3d426629b77206b682836fe6b390f) - **refactor:** reduce string literals _(by Athan Reines)_
