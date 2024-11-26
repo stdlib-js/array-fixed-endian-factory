@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`2df0e9b`](https://github.com/stdlib-js/stdlib/commit/2df0e9bb08b8ad1c573b7c2383ef39e492dd5436) - add `some` method to `array/fixed-endian-factory` [(#3241)](https://github.com/stdlib-js/stdlib/pull/3241)
 -   [`e3a2173`](https://github.com/stdlib-js/stdlib/commit/e3a2173a24bd8634f333cace626fc2d71740ebd3) - add `every` method to `array/fixed-endian-factory` [(#3200)](https://github.com/stdlib-js/stdlib/pull/3200)
 -   [`b34732c`](https://github.com/stdlib-js/stdlib/commit/b34732cf655db60fbc798e12952f88c3edb07eaf) - add `at` method to `array/fixed-endian-factory` [(#3184)](https://github.com/stdlib-js/stdlib/pull/3184)
 -   [`956a462`](https://github.com/stdlib-js/stdlib/commit/956a4624c788689b1bca285856b987ea3aa32eb6) - add `forEach` method
@@ -23,9 +24,9 @@
 
 ### Closed Issues
 
-A total of 2 issues were closed in this release:
+A total of 3 issues were closed in this release:
 
-[#3135](https://github.com/stdlib-js/stdlib/issues/3135), [#3138](https://github.com/stdlib-js/stdlib/issues/3138)
+[#3135](https://github.com/stdlib-js/stdlib/issues/3135), [#3138](https://github.com/stdlib-js/stdlib/issues/3138), [#3155](https://github.com/stdlib-js/stdlib/issues/3155)
 
 </section>
 
@@ -37,6 +38,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`2df0e9b`](https://github.com/stdlib-js/stdlib/commit/2df0e9bb08b8ad1c573b7c2383ef39e492dd5436) - **feat:** add `some` method to `array/fixed-endian-factory` [(#3241)](https://github.com/stdlib-js/stdlib/pull/3241) _(by Kshitij-Dale, Athan Reines)_
 -   [`abb0dc3`](https://github.com/stdlib-js/stdlib/commit/abb0dc38783210623e67f19a5bb95b3998f75ff7) - **docs:** update examples and descriptions _(by Athan Reines)_
 -   [`95d0bbc`](https://github.com/stdlib-js/stdlib/commit/95d0bbc4b76c57dba4b4edd343dcd046490d4a51) - **bench:** test for primitive value _(by Athan Reines)_
 -   [`e3a2173`](https://github.com/stdlib-js/stdlib/commit/e3a2173a24bd8634f333cace626fc2d71740ebd3) - **feat:** add `every` method to `array/fixed-endian-factory` [(#3200)](https://github.com/stdlib-js/stdlib/pull/3200) _(by Aayush Khanna, Athan Reines)_
@@ -56,10 +58,11 @@ A total of 2 issues were closed in this release:
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Athan Reines
+-   Kshitij-Dale
 
 </section>
 
