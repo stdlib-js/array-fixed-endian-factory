@@ -37,6 +37,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`abb0dc3`](https://github.com/stdlib-js/stdlib/commit/abb0dc38783210623e67f19a5bb95b3998f75ff7) - **docs:** update examples and descriptions _(by Athan Reines)_
 -   [`95d0bbc`](https://github.com/stdlib-js/stdlib/commit/95d0bbc4b76c57dba4b4edd343dcd046490d4a51) - **bench:** test for primitive value _(by Athan Reines)_
 -   [`e3a2173`](https://github.com/stdlib-js/stdlib/commit/e3a2173a24bd8634f333cace626fc2d71740ebd3) - **feat:** add `every` method to `array/fixed-endian-factory` [(#3200)](https://github.com/stdlib-js/stdlib/pull/3200) _(by Aayush Khanna, Athan Reines)_
 -   [`b34732c`](https://github.com/stdlib-js/stdlib/commit/b34732cf655db60fbc798e12952f88c3edb07eaf) - **feat:** add `at` method to `array/fixed-endian-factory` [(#3184)](https://github.com/stdlib-js/stdlib/pull/3184) _(by Aayush Khanna, Athan Reines)_
