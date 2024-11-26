@@ -47,38 +47,32 @@ In contrast to built-in typed array constructors which store values according to
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/array-fixed-endian-factory
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-fixedEndianFactory = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-fixed-endian-factory@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var fixedEndianFactory = require( 'path/to/vendor/umd/array-fixed-endian-factory/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-fixed-endian-factory@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.fixedEndianFactory;
-})();
-</script>
+var fixedEndianFactory = require( '@stdlib/array-fixed-endian-factory' );
 ```
 
 #### fixedEndianFactory( dtype )
@@ -355,6 +349,7 @@ Returns an array element located at integer position (index) `i`, with support f
 var Float64ArrayFE = fixedEndianFactory( 'float64' );
 
 var arr = new Float64ArrayFE( 'little-endian', [ 1.0, 2.0, 3.0 ] );
+// returns <Float64ArrayFE>
 
 var out = arr.at( 0 );
 // returns 1.0
@@ -369,6 +364,7 @@ If provided an out-of-bounds index, the method returns `undefined`.
 var Float64ArrayFE = fixedEndianFactory( 'float64' );
 
 var arr = new Float64ArrayFE( 'little-endian', [ 1.0, 2.0, 3.0 ] );
+// returns <Float64ArrayFE>
 
 var v = arr.at( 100 );
 // returns undefined
@@ -391,12 +387,13 @@ function isNegative( v ) {
 var Float64ArrayFE = fixedEndianFactory( 'float64' );
 
 var arr = new Float64ArrayFE( 'little-endian', [ -1.0, -2.0, -3.0, -4.0 ] );
+// returns <Float64ArrayFE>
 
 var bool = arr.every( isNegative );
 // returns true
 ```
 
-The invoked function is provided three arguments:
+The `predicate` function is provided three arguments:
 
 -   **value**: current array element.
 -   **index**: current array element index.
@@ -413,6 +410,7 @@ function isPositive( v, i ) {
 var Float64ArrayFE = fixedEndianFactory( 'float64' );
 
 var arr = new Float64ArrayFE( 'little-endian', [ 1.0, 2.0, -3.0 ] );
+// returns <Float64ArrayFE>
 
 var context = {
     'count': 0
@@ -439,6 +437,7 @@ function log( v, i ) {
 var Float64ArrayFE = fixedEndianFactory( 'float64' );
 
 var arr = new Float64ArrayFE( 'little-endian', 3 );
+// returns <Float64ArrayFE>
 
 arr.set( 1.5, 0 );
 arr.set( 2.5, 1 );
@@ -469,6 +468,7 @@ function fcn( v, i ) {
 var Float64ArrayFE = fixedEndianFactory( 'float64' );
 
 var arr = new Float64ArrayFE( 'little-endian', 3 );
+// returns <Float64ArrayFE>
 
 var context = {
     'count': 0
@@ -494,6 +494,7 @@ Returns an array element located at a nonnegative integer position (index) `i`.
 var Float64ArrayFE = fixedEndianFactory( 'float64' );
 
 var arr = new Float64ArrayFE( 'little-endian', 10 );
+// returns <Float64ArrayFE>
 
 // Set the first element:
 arr.set( 1.0, 0 );
@@ -509,6 +510,7 @@ If provided an out-of-bounds index, the method returns `undefined`.
 var Float64ArrayFE = fixedEndianFactory( 'float64' );
 
 var arr = new Float64ArrayFE( 'little-endian', 10 );
+// returns <Float64ArrayFE>
 
 var v = arr.get( 100 );
 // returns undefined
@@ -576,6 +578,7 @@ Serializes an array as a string.
 var Float64ArrayFE = fixedEndianFactory( 'float64' );
 
 var arr = new Float64ArrayFE( 'little-endian', [ 1.0, 2.0, 3.0 ] );
+// returns <Float64ArrayFE>
 
 var str = arr.toString();
 // returns '1,2,3'
@@ -617,15 +620,10 @@ var str = arr.toString();
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-fixed-endian-factory@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var Float64Array = require( '@stdlib/array-float64' );
+var logEach = require( '@stdlib/console-log-each' );
+var fixedEndianFactory = require( '@stdlib/array-fixed-endian-factory' );
 
 var Float64ArrayFE = fixedEndianFactory( 'float64' );
 
@@ -647,11 +645,6 @@ logEach( '%s', out );
 arr = new Float64Array( [ 1.0, -1.0, -3.14, 3.14, 0.5, 0.5 ] ); // host byte order
 out = new Float64ArrayFE( 'big-endian', arr.buffer, 8, 2 );
 logEach( '%s', out );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -746,13 +739,13 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-fixed-endian-factory/main/LICENSE
 
-[@stdlib/array/typed]: https://github.com/stdlib-js/array-typed/tree/umd
+[@stdlib/array/typed]: https://github.com/stdlib-js/array-typed
 
-[@stdlib/array/buffer]: https://github.com/stdlib-js/array-buffer/tree/umd
+[@stdlib/array/buffer]: https://github.com/stdlib-js/array-buffer
 
-[@stdlib/wasm/memory]: https://github.com/stdlib-js/wasm-memory/tree/umd
+[@stdlib/wasm/memory]: https://github.com/stdlib-js/wasm-memory
 
-[@stdlib/array/typed-dtypes]: https://github.com/stdlib-js/array-typed-dtypes/tree/umd
+[@stdlib/array/typed-dtypes]: https://github.com/stdlib-js/array-typed-dtypes
 
 </section>
 
