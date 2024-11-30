@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-27)
+## Unreleased (2024-11-30)
 
 <section class="features">
 
 ### Features
 
+-   [`c8143c4`](https://github.com/stdlib-js/stdlib/commit/c8143c4f1f5254c67916bb1548aa5443d282e263) - add `lastIndexOf` method to `array/fixed-endian-factory` [(#3281)](https://github.com/stdlib-js/stdlib/pull/3281)
 -   [`9db1815`](https://github.com/stdlib-js/stdlib/commit/9db181520dc74f28aab70a73aac64202cf7560ce) - add `indexOf` method to `array/fixed-endian-factory` [(#3279)](https://github.com/stdlib-js/stdlib/pull/3279)
 -   [`1d217ba`](https://github.com/stdlib-js/stdlib/commit/1d217bad1d35210a57d65c8be67c596815589082) - add `map` method to `array/fixed-endian-factory` [(#3270)](https://github.com/stdlib-js/stdlib/pull/3270)
 -   [`2df0e9b`](https://github.com/stdlib-js/stdlib/commit/2df0e9bb08b8ad1c573b7c2383ef39e492dd5436) - add `some` method to `array/fixed-endian-factory` [(#3241)](https://github.com/stdlib-js/stdlib/pull/3241)
@@ -26,9 +27,9 @@
 
 ### Closed Issues
 
-A total of 5 issues were closed in this release:
+A total of 6 issues were closed in this release:
 
-[#3135](https://github.com/stdlib-js/stdlib/issues/3135), [#3138](https://github.com/stdlib-js/stdlib/issues/3138), [#3146](https://github.com/stdlib-js/stdlib/issues/3146), [#3150](https://github.com/stdlib-js/stdlib/issues/3150), [#3155](https://github.com/stdlib-js/stdlib/issues/3155)
+[#3135](https://github.com/stdlib-js/stdlib/issues/3135), [#3138](https://github.com/stdlib-js/stdlib/issues/3138), [#3146](https://github.com/stdlib-js/stdlib/issues/3146), [#3149](https://github.com/stdlib-js/stdlib/issues/3149), [#3150](https://github.com/stdlib-js/stdlib/issues/3150), [#3155](https://github.com/stdlib-js/stdlib/issues/3155)
 
 </section>
 
@@ -40,6 +41,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`c8143c4`](https://github.com/stdlib-js/stdlib/commit/c8143c4f1f5254c67916bb1548aa5443d282e263) - **feat:** add `lastIndexOf` method to `array/fixed-endian-factory` [(#3281)](https://github.com/stdlib-js/stdlib/pull/3281) _(by Aditya Sapra, Philipp Burckhardt)_
 -   [`9db1815`](https://github.com/stdlib-js/stdlib/commit/9db181520dc74f28aab70a73aac64202cf7560ce) - **feat:** add `indexOf` method to `array/fixed-endian-factory` [(#3279)](https://github.com/stdlib-js/stdlib/pull/3279) _(by Aditya Sapra, Athan Reines)_
 -   [`1d217ba`](https://github.com/stdlib-js/stdlib/commit/1d217bad1d35210a57d65c8be67c596815589082) - **feat:** add `map` method to `array/fixed-endian-factory` [(#3270)](https://github.com/stdlib-js/stdlib/pull/3270) _(by Aayush Khanna, Athan Reines)_
 -   [`2df0e9b`](https://github.com/stdlib-js/stdlib/commit/2df0e9bb08b8ad1c573b7c2383ef39e492dd5436) - **feat:** add `some` method to `array/fixed-endian-factory` [(#3241)](https://github.com/stdlib-js/stdlib/pull/3241) _(by Kshitij-Dale, Athan Reines)_
@@ -62,12 +64,13 @@ A total of 5 issues were closed in this release:
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Aditya Sapra
 -   Athan Reines
 -   Kshitij-Dale
+-   Philipp Burckhardt
 
 </section>
 
