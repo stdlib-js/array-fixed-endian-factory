@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`41af546`](https://github.com/stdlib-js/stdlib/commit/41af5467a9067f22ec8facdb535389bac10093bd) - add `reduceRight` method to `array/fixed-endian-factory` [(#3300)](https://github.com/stdlib-js/stdlib/pull/3300)
 -   [`b679536`](https://github.com/stdlib-js/stdlib/commit/b679536e73bb91b1f9194bb6897232a3aa5cf2f2) - add `reduce` method to `array/fixed-endian-factory` [(#3296)](https://github.com/stdlib-js/stdlib/pull/3296)
 -   [`6ddda90`](https://github.com/stdlib-js/stdlib/commit/6ddda90477b17bb06353e539d6d6dbf9207e6b8f) - add `join` method to `array/fixed-endian-factory` [(#3287)](https://github.com/stdlib-js/stdlib/pull/3287)
 -   [`c8143c4`](https://github.com/stdlib-js/stdlib/commit/c8143c4f1f5254c67916bb1548aa5443d282e263) - add `lastIndexOf` method to `array/fixed-endian-factory` [(#3281)](https://github.com/stdlib-js/stdlib/pull/3281)
@@ -29,9 +30,9 @@
 
 ### Closed Issues
 
-A total of 8 issues were closed in this release:
+A total of 9 issues were closed in this release:
 
-[#3135](https://github.com/stdlib-js/stdlib/issues/3135), [#3138](https://github.com/stdlib-js/stdlib/issues/3138), [#3146](https://github.com/stdlib-js/stdlib/issues/3146), [#3147](https://github.com/stdlib-js/stdlib/issues/3147), [#3149](https://github.com/stdlib-js/stdlib/issues/3149), [#3150](https://github.com/stdlib-js/stdlib/issues/3150), [#3151](https://github.com/stdlib-js/stdlib/issues/3151), [#3155](https://github.com/stdlib-js/stdlib/issues/3155)
+[#3135](https://github.com/stdlib-js/stdlib/issues/3135), [#3138](https://github.com/stdlib-js/stdlib/issues/3138), [#3146](https://github.com/stdlib-js/stdlib/issues/3146), [#3147](https://github.com/stdlib-js/stdlib/issues/3147), [#3149](https://github.com/stdlib-js/stdlib/issues/3149), [#3150](https://github.com/stdlib-js/stdlib/issues/3150), [#3151](https://github.com/stdlib-js/stdlib/issues/3151), [#3152](https://github.com/stdlib-js/stdlib/issues/3152), [#3155](https://github.com/stdlib-js/stdlib/issues/3155)
 
 </section>
 
@@ -43,6 +44,7 @@ A total of 8 issues were closed in this release:
 
 <details>
 
+-   [`41af546`](https://github.com/stdlib-js/stdlib/commit/41af5467a9067f22ec8facdb535389bac10093bd) - **feat:** add `reduceRight` method to `array/fixed-endian-factory` [(#3300)](https://github.com/stdlib-js/stdlib/pull/3300) _(by Aayush Khanna, Philipp Burckhardt)_
 -   [`b679536`](https://github.com/stdlib-js/stdlib/commit/b679536e73bb91b1f9194bb6897232a3aa5cf2f2) - **feat:** add `reduce` method to `array/fixed-endian-factory` [(#3296)](https://github.com/stdlib-js/stdlib/pull/3296) _(by Aayush Khanna)_
 -   [`6ddda90`](https://github.com/stdlib-js/stdlib/commit/6ddda90477b17bb06353e539d6d6dbf9207e6b8f) - **feat:** add `join` method to `array/fixed-endian-factory` [(#3287)](https://github.com/stdlib-js/stdlib/pull/3287) _(by Aditya Sapra, Philipp Burckhardt)_
 -   [`c8143c4`](https://github.com/stdlib-js/stdlib/commit/c8143c4f1f5254c67916bb1548aa5443d282e263) - **feat:** add `lastIndexOf` method to `array/fixed-endian-factory` [(#3281)](https://github.com/stdlib-js/stdlib/pull/3281) _(by Aditya Sapra, Philipp Burckhardt)_
