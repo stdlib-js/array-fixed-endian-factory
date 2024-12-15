@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-04)
+## Unreleased (2024-12-15)
 
 <section class="features">
 
@@ -47,7 +47,8 @@ A total of 12 issues were closed in this release:
 
 <details>
 
--   [`1d10ce5`](https://github.com/stdlib-js/stdlib/commit/1d10ce5163bb06f0b93f6dc0ef9697a8336054c2) - **feat:** add `includes` method to `array/fixed-endian-factory` [(#3283)](https://github.com/stdlib-js/stdlib/pull/3283) _(by Ahmed_Kashkoush, Athan Reines, Muhammad Haris)_
+-   [`3c1789f`](https://github.com/stdlib-js/stdlib/commit/3c1789fdfe3ae56635ddf84fb5dfe229237794fa) - **docs:** add missing private annotations and decimals _(by Philipp Burckhardt)_
+-   [`1d10ce5`](https://github.com/stdlib-js/stdlib/commit/1d10ce5163bb06f0b93f6dc0ef9697a8336054c2) - **feat:** add `includes` method to `array/fixed-endian-factory` [(#3283)](https://github.com/stdlib-js/stdlib/pull/3283) _(by Ahmed Kashkoush, Athan Reines, Muhammad Haris)_
 -   [`e5d32c5`](https://github.com/stdlib-js/stdlib/commit/e5d32c53f8f552fae4d672c8750619a59ce078ac) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`9798530`](https://github.com/stdlib-js/stdlib/commit/97985302871b99c45462d43479e246c4549c3991) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`a0ba090`](https://github.com/stdlib-js/stdlib/commit/a0ba090515dfdfe617e1179ddb7581db24fec44b) - **feat:** add `with` method to `array/fixed-endian-factory` [(#3291)](https://github.com/stdlib-js/stdlib/pull/3291) _(by Aayush Khanna, Philipp Burckhardt)_
@@ -82,7 +83,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 -   Aayush Khanna
 -   Aditya Sapra
--   Ahmed_Kashkoush
+-   Ahmed Kashkoush
 -   Athan Reines
 -   Kshitij-Dale
 -   Muhammad Haris
