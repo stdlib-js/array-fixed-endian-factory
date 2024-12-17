@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-15)
+## Unreleased (2024-12-17)
 
 <section class="features">
 
@@ -47,6 +47,7 @@ A total of 12 issues were closed in this release:
 
 <details>
 
+-   [`32deb11`](https://github.com/stdlib-js/stdlib/commit/32deb11c6a2453748d8db9554b6bb3fdb73a077f) - **docs:** update related packages sections [(#3976)](https://github.com/stdlib-js/stdlib/pull/3976) _(by stdlib-bot)_
 -   [`3c1789f`](https://github.com/stdlib-js/stdlib/commit/3c1789fdfe3ae56635ddf84fb5dfe229237794fa) - **docs:** add missing private annotations and decimals _(by Philipp Burckhardt)_
 -   [`1d10ce5`](https://github.com/stdlib-js/stdlib/commit/1d10ce5163bb06f0b93f6dc0ef9697a8336054c2) - **feat:** add `includes` method to `array/fixed-endian-factory` [(#3283)](https://github.com/stdlib-js/stdlib/pull/3283) _(by Ahmed Kashkoush, Athan Reines, Muhammad Haris)_
 -   [`e5d32c5`](https://github.com/stdlib-js/stdlib/commit/e5d32c53f8f552fae4d672c8750619a59ce078ac) - **chore:** minor clean-up _(by Philipp Burckhardt)_
