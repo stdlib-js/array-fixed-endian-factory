@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-21)
+## Unreleased (2025-12-03)
 
 <section class="features">
 
@@ -57,6 +57,7 @@ A total of 12 issues were closed in this release:
 
 <details>
 
+-   [`ac675fb`](https://github.com/stdlib-js/stdlib/commit/ac675fb2564167fc1b522333a568bf5ab8a8cd33) - **bench:** refactor to use string interpolation in `array/fixed-endian-factory` [(#8693)](https://github.com/stdlib-js/stdlib/pull/8693) _(by Muskaan Shraogi)_
 -   [`4252199`](https://github.com/stdlib-js/stdlib/commit/42521999bf5751baf748fb1e9528c9c4b31a9116) - **fix:** ensure byte offset is a multiple of data type byte length _(by Athan Reines)_
 -   [`4a70790`](https://github.com/stdlib-js/stdlib/commit/4a707903dfef7c2b56216000165706497d19a251) - **style:** add missing spaces _(by Philipp Burckhardt)_
 -   [`32deb11`](https://github.com/stdlib-js/stdlib/commit/32deb11c6a2453748d8db9554b6bb3fdb73a077f) - **docs:** update related packages sections [(#3976)](https://github.com/stdlib-js/stdlib/pull/3976) _(by stdlib-bot)_
@@ -92,7 +93,7 @@ A total of 12 issues were closed in this release:
 
 ### Contributors
 
-A total of 7 people contributed to this release. Thank you to the following contributors:
+A total of 8 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Aditya Sapra
@@ -100,6 +101,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 -   Athan Reines
 -   Kshitij-Dale
 -   Muhammad Haris
+-   Muskaan Shraogi
 -   Philipp Burckhardt
 
 </section>
