@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-fixed-endian-factory",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Return a typed array constructor for creating typed arrays having a specified byte order.",
   "license": "Apache-2.0",
   "author": {
@@ -51,7 +51,7 @@
     "@stdlib/assert-is-object": "^0.2.2",
     "@stdlib/assert-is-prototype-of": "^0.2.2",
     "@stdlib/assert-is-string": "^0.2.2",
-    "@stdlib/ndarray-base-bytes-per-element": "^0.2.2",
+    "@stdlib/ndarray-base-bytes-per-element": "^0.3.0",
     "@stdlib/string-base-capitalize": "^0.3.0",
     "@stdlib/string-base-lowercase": "^0.4.0",
     "@stdlib/string-format": "^0.2.2",

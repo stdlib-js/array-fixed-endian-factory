@@ -1090,7 +1090,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -1103,8 +1103,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/array-fixed-endian-factory.svg
 [npm-url]: https://npmjs.org/package/@stdlib/array-fixed-endian-factory
 
-[test-image]: https://github.com/stdlib-js/array-fixed-endian-factory/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/array-fixed-endian-factory/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/array-fixed-endian-factory/actions/workflows/test.yml/badge.svg?branch=v0.1.0
+[test-url]: https://github.com/stdlib-js/array-fixed-endian-factory/actions/workflows/test.yml?query=branch:v0.1.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/array-fixed-endian-factory/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/array-fixed-endian-factory?branch=main
