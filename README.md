@@ -54,7 +54,7 @@ In contrast to built-in typed array constructors which store values according to
 ## Usage
 
 ```javascript
-import fixedEndianFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-fixed-endian-factory@esm/index.mjs';
+import fixedEndianFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-fixed-endian-factory@v0.1.0-esm/index.mjs';
 ```
 
 #### fixedEndianFactory( dtype )
@@ -1007,7 +1007,7 @@ var v = out.get( 0 );
 
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
 import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@esm/index.mjs';
-import fixedEndianFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-fixed-endian-factory@esm/index.mjs';
+import fixedEndianFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-fixed-endian-factory@v0.1.0-esm/index.mjs';
 
 var Float64ArrayFE = fixedEndianFactory( 'float64' );
 
