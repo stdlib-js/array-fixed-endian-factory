@@ -54,6 +54,11 @@ In contrast to built-in typed array constructors which store values according to
 ## Usage
 
 ```javascript
+import fixedEndianFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-fixed-endian-factory@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-fixed-endian-factory/tags). For example,
+
+```javascript
 import fixedEndianFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-fixed-endian-factory@v0.1.1-esm/index.mjs';
 ```
 
@@ -1007,7 +1012,7 @@ var v = out.get( 0 );
 
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
 import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@esm/index.mjs';
-import fixedEndianFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-fixed-endian-factory@v0.1.1-esm/index.mjs';
+import fixedEndianFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-fixed-endian-factory@esm/index.mjs';
 
 var Float64ArrayFE = fixedEndianFactory( 'float64' );
 
