@@ -54,6 +54,11 @@ In contrast to built-in typed array constructors which store values according to
 ## Usage
 
 ```javascript
+import fixedEndianFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-fixed-endian-factory@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-fixed-endian-factory/tags). For example,
+
+```javascript
 import fixedEndianFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-fixed-endian-factory@v0.1.1-deno/mod.js';
 ```
 
@@ -1002,7 +1007,7 @@ var v = out.get( 0 );
 ```javascript
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
 import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@deno/mod.js';
-import fixedEndianFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-fixed-endian-factory@v0.1.1-deno/mod.js';
+import fixedEndianFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-fixed-endian-factory@deno/mod.js';
 
 var Float64ArrayFE = fixedEndianFactory( 'float64' );
 
