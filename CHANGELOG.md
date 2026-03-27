@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-03-27)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`3bf34ec`](https://github.com/stdlib-js/stdlib/commit/3bf34ec6df7f894f7cbee125eb3f655ebb2d6a4e) - **chore:** fix typos, grammar, and minor issues across multiple packages [(#11167)](https://github.com/stdlib-js/stdlib/pull/11167) _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.1.1">
 
 ## 0.1.1 (2026-02-08)
