@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-14)
+## Unreleased (2026-10-29)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`a163565`](https://github.com/stdlib-js/stdlib/commit/a163565462a09f6d4c2dcadd39048eb6632b7b7f) - avoid mutating source array [(#16346)](https://github.com/stdlib-js/stdlib/pull/16346)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`a163565`](https://github.com/stdlib-js/stdlib/commit/a163565462a09f6d4c2dcadd39048eb6632b7b7f) - **fix:** avoid mutating source array [(#16346)](https://github.com/stdlib-js/stdlib/pull/16346) _(by SARTHAK)_
 -   [`a73d38b`](https://github.com/stdlib-js/stdlib/commit/a73d38bb5fb3def53498a3d74f8e4efe0c24f7f8) - **test:** remove excess whitespace in descriptions [(#16145)](https://github.com/stdlib-js/stdlib/pull/16145) _(by Philipp Burckhardt)_
 -   [`3bf34ec`](https://github.com/stdlib-js/stdlib/commit/3bf34ec6df7f894f7cbee125eb3f655ebb2d6a4e) - **chore:** fix typos, grammar, and minor issues across multiple packages [(#11167)](https://github.com/stdlib-js/stdlib/pull/11167) _(by Philipp Burckhardt)_
 
@@ -25,9 +36,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Philipp Burckhardt
+-   SARTHAK
 
 </section>
 

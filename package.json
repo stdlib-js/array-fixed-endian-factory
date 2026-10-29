@@ -42,6 +42,7 @@
     "@stdlib/array-base-getter": "^0.2.3",
     "@stdlib/array-buffer": "^0.2.3",
     "@stdlib/array-dataview": "^0.2.3",
+    "@stdlib/array-uint8": "^0.2.3",
     "@stdlib/assert-has-iterator-symbol-support": "^0.2.3",
     "@stdlib/assert-is-arraybuffer": "^0.2.3",
     "@stdlib/assert-is-collection": "^0.2.3",
